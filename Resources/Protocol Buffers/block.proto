@@ -1,0 +1,9 @@
+syntax = "proto3";
+option csharp_namespace = "Connectors.Proto";
+message Block {
+    repeated int32 time = 1;
+    repeated float open = 2;
+    repeated float low = 3;
+    repeated float high = 4;
+    repeated float close = 5;
+}
